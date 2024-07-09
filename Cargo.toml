@@ -1,0 +1,10 @@
+[package]
+name = "solana_scheduler_runtime"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+solana-client = "1.8.14"
+solana-program = "1.8.14"
+tokio = { version = "1", features = ["full"] }
+
